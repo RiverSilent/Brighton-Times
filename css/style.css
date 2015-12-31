@@ -1,0 +1,197 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+	width: 15%;
+}
+
+.logo,
+.title,
+.icon{
+	display: inline-block;
+}
+
+.title{
+	font-size: 20px;
+	font-weight: normal;
+}
+
+header{
+	margin-bottom: 20px;
+}
+
+.outer-header{
+	box-shadow: 0 2px 5px #676767;
+}
+
+.drawer{
+	display: flex;
+	flex-wrap: nowrap;
+	width: 100%;
+}
+
+.drawer a{
+	text-decoration: none;
+	color: #232323;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 10px;
+	width: 25%;
+	min-width: 48px;
+	min-height: 48px;
+}
+
+.hero{
+	width: 100%;
+	min-height: 300px;
+	position: relative;
+	background-image: url("../images/dog.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.hero article{
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.7);
+	color: #fff;
+	
+}
+
+.hero article h2{
+	font-size: 18px;
+}
+
+.hero article p{
+	font-size: 15px;
+}
+
+.top-news{
+	width: 100%;
+}
+
+.top-news-title,
+.more-top-news-link{
+	font-weight: normal;
+}
+
+.more-top-news-link{
+	text-decoration: none;
+	color: #787878;
+	float: right;
+}
+
+.top-news-list a{
+	text-decoration: none;
+	color: #343434;
+}
+
+.sports-scores{
+	width: 100%;
+}
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+thead{
+	background-color: #987021;
+	color: #fff;
+}
+
+th,
+td{
+	padding: 10px 3px;
+}
+
+.even-row{
+	background-color: #dedede;
+}
+
+.winner{
+	font-weight: bold;
+}
+
+.weather{
+	width: 100%;
+}
+
+.today-weather-image,
+.today-weather-temperature{
+	display: inline-block;
+}
+
+.today-weather-temperature{
+	font-size: 24px;
+}
+
+.weather-day,
+.future-weather-day{
+	font-weight: bold;
+}
+
+.future-forecast-list{
+	list-style: none;
+}
+
+.future-weather-day,
+.future-weather-image,
+.future-weather-temp{
+	display: inline-block;
+}
+
+.future-weather-image{
+	vertical-align: bottom;
+}
+
+.latest-news{
+	width: 100%;
+}
+
+.latest-news-title,
+.more-latest-news-link{
+	font-weight: normal;
+}
+
+.more-latest-news-link{
+	float: right;
+	text-decoration: none;
+	color: #232323;
+}
+
+
+.latest-news-image{
+	display: none;
+}
+
+.latest-news-list a{
+	text-decoration: none;
+	color: #232323;
+}
+
+.latest-news-list p{
+	line-height: 1.3em;
+}
+
+.footer-link{
+	text-decoration: none;
+	color: #232323;
+	padding: 15px 10px;
+	min-width: 48px;
+	min-height: 48px;
+}
+
+.footer-list{
+	list-style: none;
+}
+
+.footer-list li{
+	min-width: 48px;
+	min-height: 48px;
+}
