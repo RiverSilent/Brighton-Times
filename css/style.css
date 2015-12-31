@@ -91,6 +91,11 @@ header{
 	color: #343434;
 }
 
+.top-news-list li{
+	border-bottom: dotted 1px black;
+	margin-bottom: 5px;
+}
+
 .sports-scores{
 	width: 100%;
 }
