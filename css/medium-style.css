@@ -1,0 +1,51 @@
+.title{
+	font-size: 27px;
+}
+
+.main-content{
+	-webkit-display: flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.hero{
+	width: 40%;
+	margin-right: 3%;
+	order: -2;
+}
+
+.sports-scores{
+	width: 55%;
+	order: -1;
+}
+
+th,
+td{
+	padding-top: 18px;
+}
+
+.future-forecast-list li{
+	display: inline-block;
+	width: 19%;
+}
+
+.future-weather-day,
+.future-weather-image,
+.future-weather-temp{
+	display: block;
+}
+
+.latest-news-list{
+	list-style: none;
+}
+
+.latest-news-image{
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+}
+
+.footer-list li{
+	display: inline-block;
+}
